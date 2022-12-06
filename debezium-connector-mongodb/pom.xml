@@ -241,6 +241,7 @@
                         <connector.mongodb.hosts>${mongo.data.replicaset.name}/${docker.host.address}:27017</connector.mongodb.hosts>
                         <connector.mongodb.members.auto.discover>false</connector.mongodb.members.auto.discover>
                         <connector.mongodb.name>mongo1</connector.mongodb.name>
+                        <version.mongo.server>${version.mongo.server}</version.mongo.server>
                         <skipLongRunningTests>${skipLongRunningTests}</skipLongRunningTests>
                     </systemPropertyVariables>
                 </configuration>
