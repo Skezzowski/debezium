@@ -6,8 +6,6 @@ on:
   pull_request:
     paths:
       - '.github/workflows/jdk-outreach-workflow.yml'
-  schedule:
-    - cron: 0 22 * * *
 
 jobs:
   sqlserver:
